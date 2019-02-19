@@ -1,0 +1,9 @@
+server:
+  port: 7777
+  compression:
+    enabled: true
+  servlet:
+    context-path: /webssh
+spring:
+  mvc:
+    static-path-pattern: /**
